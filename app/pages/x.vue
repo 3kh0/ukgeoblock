@@ -6,7 +6,7 @@
 
     <div class="px-4 text-2xl w-full max-w-5xl text-center space-y-4">
       <p>
-        The the bypass cookie has been activated on your browser. You should be able to access the entire site now without getting hit by any of the filters or a VPN, although it is still highly recommended.
+        The bypass cookie has been activated on your browser. You should be able to access the entire site now without getting hit by any of the filters or a VPN, although it is still highly recommended.
       </p>
 
       <p>Click <a href="/" class="text-white underline">here</a> to go back to the main page.</p>
