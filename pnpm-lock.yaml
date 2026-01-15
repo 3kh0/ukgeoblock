@@ -1783,8 +1783,8 @@ packages:
   devalue@5.6.1:
     resolution: {integrity: sha512-jDwizj+IlEZBunHcOuuFVBnIMPAEHvTsJj0BcIp94xYguLRVBcXO853px/MyIJvbVzWdsGvrRweIUWJw8hBP7A==}
 
-  diff@8.0.2:
-    resolution: {integrity: sha512-sSuxWU5j5SR9QQji/o2qMvqRNYRDOcBTgsJ/DeCf4iSN4gW+gNMXM7wFIP+fdXZxoNiAnHUTGjCr+TSWXdRDKg==}
+  diff@8.0.3:
+    resolution: {integrity: sha512-qejHi7bcSD4hQAZE0tNAawRK1ZtafHDmMTMkrrIGgSLl7hTnQHmKCeB45xAcbfTqK2zowkM3j3bHt/4b/ARbYQ==}
     engines: {node: '>=0.3.1'}
 
   dom-serializer@2.0.0:
@@ -3946,7 +3946,7 @@ snapshots:
   '@nuxt/devtools-wizard@3.1.1':
     dependencies:
       consola: 3.4.2
-      diff: 8.0.2
+      diff: 8.0.3
       execa: 8.0.1
       magicast: 0.5.1
       pathe: 2.0.3
@@ -5176,7 +5176,7 @@ snapshots:
 
   devalue@5.6.1: {}
 
-  diff@8.0.2: {}
+  diff@8.0.3: {}
 
   dom-serializer@2.0.0:
     dependencies:
