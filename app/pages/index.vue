@@ -1,6 +1,6 @@
 <template>
-  <main class="flex flex-col justify-between items-center mt-15 py-8">
-    <h1 class="text-5xl font-bold text-center px-4 w-full max-w-5xl mb-12">
+  <main class="flex flex-col justify-center items-center min-h-screen py-8">
+    <h1 class="text-5xl font-bold text-center px-4 w-full max-w-5xl mb-6">
       Sorry, this site is not available in your country due to Ofcom regulations
     </h1>
 
@@ -17,8 +17,14 @@
       <blockquote class="italic">"I disapprove of what you say, but I will defend to the death your right to say it." - Evelyn Beatrice Hall</blockquote>
 
       <p>
-        You may opt to use a VPN to access content not available in your region and help protect it from prying eyes. I highly recommend <a href="https://mullvad.net/en" target="_blank" rel="noopener noreferrer" class="text-white underline">Mullvad</a> as they are one of the most trusted and secure VPN providers. <span class="font-bold">If a VPN is not possible, you can <a href="/x" rel="noopener noreferrer" class="text-white underline">click here</a> to activate a special bypass that will allow you past the UK geo-block on this domain.</span> Keen eyes might notice that recommending a VPN is technically illegal under Ofcom, but I choose educate rather than kneel to censors.
+        You may opt to use a VPN to access content not available in your region and help protect it from prying eyes. I highly recommend <a href="https://mullvad.net/en" target="_blank" rel="noopener noreferrer" class="text-white underline">Mullvad</a> as they are one of the most trusted and secure VPN providers. Keen eyes might notice that recommending a VPN is technically illegal under Ofcom, but I choose to educate rather than kneel to censors.
       </p>
+
+      <div class="border border-white/30 rounded-lg p-6 bg-white/5">
+        <p class="font-bold text-xl mb-3">Don't have a VPN?</p>
+        <p class="mb-4">You can activate a bypass that will allow you past the UK geo-block on this domain without needing a VPN.</p>
+        <a href="/x" rel="noopener noreferrer" class="inline-block px-6 py-3 bg-white text-black font-bold rounded-lg hover:bg-white/90 transition-colors">Activate Bypass</a>
+      </div>
 
       <p>I am still reachable on <a href="mailto:3kh0@3kh0.net" target="_blank" rel="noopener noreferrer" class="text-white underline">Email</a>, <a href="https://signal.me/#eu/EnC26yk3rkDfP2JPoguBZYjCVhMD6_xAGxu1L4UzhdK0bnQgDHdIQLCQjR6eBdZF" target="_blank" rel="noopener noreferrer" class="text-white underline">Signal</a>, and <a href="https://t.me/doober" target="_blank" rel="noopener noreferrer" class="text-white underline">Telegram</a>.</p>
     </div>
