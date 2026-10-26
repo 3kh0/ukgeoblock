@@ -18,6 +18,8 @@
 </template>
 
 <script setup>
+import { onMounted, ref } from 'vue';
+
 const ok = ref(false);
 
 const local = (h) => h === 'localhost' || h === '127.0.0.1' || h === '::1';
